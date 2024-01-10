@@ -1,0 +1,164 @@
+**# Security 101 Challenge
+
+
+Cybersecurity Threat Landscape
+
+Part I: Crowdstrike 2021 Global Threat Report
+For Part 1 of your homework assignment, use the Crowdstrike 2021 Global Threat Report along with independent research to answer the following questions. (Remember to make a copy of this document to work in.)
+
+What was the dominant ransomware family that impacted the healthcare industry in 2020?
+
+Maze.
+
+Describe three different pandemic-related eCrime Phishing themes.
+
+Exploitation of individuals, exploiting those looking for details on disease tracking or testing/treatment. 
+Impersonating medical bodies, ie appearing as a trusted medical source such as the WHO or CDC. 
+There are more than three but a similar theme of using COVID-19. Either scams offering Personal Protective Equipment (PPE), tailored attacks against those working from home, phishing lure content like deliveries, invoice, and PO’s; very similar to #2 with PPEs.
+
+Which industry was targeted with the highest number of ransomware-associated data extortion operations?
+
+Industrial and engineering sector.
+
+What is WICKED PANDA? Where do they originate from?
+
+Wicked Panda is a cybercrime group, and they originate from China. Many names are correlated to the nation state they’re from or their motivations. 
+
+Which ransomware actor was the first observed using data extortion in a ransomware campaign?
+
+Outlaw Spider
+
+What is an access broker? 
+
+Threat actors who gain backend access to various organizations: corporations, government entities, etc. These access brokers sell the access they’ve gained to either criminal forums or private channels. 
+
+Explain a credential-based attack.
+
+Attackers steal or somehow acquire credentials of an organization to gain access. I am reminded of the UBER attack we talked about in class last week where the attacker gained credentials via the dark web. 
+
+Who is credited for the heavy adoption of data extortion in ransomware campaigns?
+
+Twisted Spider - most active BGH with DLS’s, some 500 DLS’s. 
+
+What is a DLS?
+
+Dedicated Leak Sites. A site the adversary can use/create; a website where the adversary threatens to release/publish the data they hacked, in order to pressure their victim into paying the ransom. 
+
+According to Crowdstrike Falcon OverWatch, what percentage of intrusions came from eCrime intrusions in 2020? 
+
+“eCrime intrusions made up 79% of all attributable intrusions uncovered by OverWatch in 2020” (pg.10).
+
+
+
+Who was the most reported criminal adversary of 2020? 
+
+Wizard Spider
+
+Explain how SPRITE SPIDER and CARBON SPIDER impacted virtualization infrastructures.
+
+It seems all related attacks were via valid credentials. “SPRITE SPIDER likely used the PyXie remote access trojan (RAT) LaZagne module to harvest vCenteradministrator credentials stored in a web browser” (pg.26). 
+
+Attacks like this, attacks on the hosts, allow the adversaries to quickly infect multiple systems. Infecting or encrypting on ESXi (“a type of hypervisor that runs on dedicated hardware and manages multiple VMs” (pg.26), I think of a more op version of vagrant; but I could be wrong.) can infect multiple VMs at once; not only is this faster but it seems that it is more effective than encrypting a single VM at a time. 
+
+What role does an Enabler play in an eCrime ecosystem?
+
+Enablers are essentially other criminal actors who have capabilities that others may not have access to. For example, Twisted Spider, famous for Maze ransomware, may sell or give access to his Maze ransomware to another group because said group may find it more effective for their attack; in this instance, Twisted Spider would be the enabler. 
+
+What are the three parts of the eCrime ecosystem that CrowdStrike highlighted in their report?
+
+Services
+Distributions 
+Monetization 
+
+What is the name of the malicious code used to exploit a vulnerability in the SolarWinds Orion IT management software?
+
+SUNBURST
+
+
+Part 2: Akamai Security Year in Review 2020
+In this part, you should primarily use the Akamai Security Year in Review 2020 and Akamai State of the Internet / Security along with independent research to answer the following questions.
+
+What was the most vulnerable and targeted element of the gaming industry between October 2019 to September 2020? 
+
+Players
+
+From October 2019 to September 2020, which month did the financial services industry have the most daily web application attacks? 
+
+December
+
+What percentage of phishing kits monitored by Akamai were active for only 20 days or less? 
+
+More than 60%.
+
+What is credential stuffing? 
+
+A cyberattack where the cybercriminal has collected stolen account credentials. In the hopes they can gain access because many users reuse either the same username and/or password. The criminal preys on the users’ reuse of credentials, some cybercriminals incorporate bots for automation and scale. 
+
+Approximately how many of the gaming industry players have experienced their accounts being compromised?  How many of them are worried about it?
+
+“More than half of the frequent players said they’ve had their accounts compromised, but only one-fifth of them were worried about such things” (pg.12).
+
+What is a three-question quiz phishing attack?
+
+They are attacks that prey on users to fill out quizzes in the hopes of a reward or prize, but results usually end with stolen personal information. 
+
+Explain how Prolexic Routed defends organizations against DDoS attacks.
+
+Prolexic Routed redirects network traffic through Akamai scrubbing centers. These Akamai scrubbing centers deflect the dirty traffic and only allow clean traffic through, thus mitigating DDOS attacks. 
+
+What day between October 2019 to September 2020 had the highest Daily Logins associated with Daily Credential Abuse Attempts? 
+
+August 17, 2020 with 365,181,101 daily logins.
+
+What day between October 2019 to September 2020 had the highest gaming attacks associated with Daily Web Application Attacks? 
+
+July 11, 2020 with 14,631,618 gaming attacks. 
+
+ What day between October 2019 to September 2020 had the highest media attacks associated with Daily Web Application Attacks?
+
+August 20, 2020 with 5,150,760 media attacks. 
+
+
+Part 3: Verizon Data Breaches Investigation Report
+In this part, use the Verizon Data Breaches Investigation Report plus independent research to answer the following questions.
+______________________________________________________________________
+What is the difference between an incident and a breach? 
+
+Incident: A security event that compromises the CIA triad: confidentiality, ntegrity, and availability.
+
+Breach: Is a type of incident. Confirmed disclosure of data to an unauthorized party; confirmed disclosure not just a potential exposure. 
+
+What percentage of breaches were perpetrated by outside actors? What percentage were perpetrated by internal actors? 
+
+The percentage of external actors looked to be about 70% and rose close to 80%, whereas internal actors looked to be about 30% but fell to almost 20%.(pg.12).
+
+What percentage of breaches were perpetrated by organized crime? 
+
+80%.
+
+What percentage of breaches were financially motivated? 
+
+Roughly 70-75%.
+
+Define the following (additional research may be required outside of the report): 
+
+Denial of service:An attack meant to disrupt or shut down a machine or network, rendering said service inaccessible to the user.Hence denial of service, the attacker is denying service to the user of the machine or network the user is trying to access. 
+
+Command control:An attacker takes heist of a computer, thus controls it. With this computer, they can send commands to compromised systems via malware and receive stolen data from the network of said compromised system. Hence command control, they take control and thus command of another system. 
+
+Backdoor:A covert method to bypass authentication or encryption in a computer, device, etc. Hence backdoor, not a typical access point a user may think of. 
+
+Keylogger: A form of spyware where the attacker can log a user’s keystrokes and gain access to said service of the keystrokes they’ve logged; it’s pretty inconspicuous and is kind of like eavesdropping on the user’s keyboard. Hence keylogger, the criminal can log all of the user’s keystrokes. 
+
+What remains one of the most sought-after data types for hackers? 
+
+Credentials.
+
+What was the percentage of breaches involving phishing?
+
+Roughly 35-38%
+
+
+
+
+© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -1,0 +1,118 @@
+ Module 2 Challenge Submission File
+
+
+
+ Assessing Security Culture
+
+Make a copy of this document to work in, and then answer each question below the prompt. Save and submit this completed file as your Challenge deliverable.
+
+
+Step 1: Measure and Set Goals
+
+Using outside research, indicate the potential security risks of allowing employees to access work information on their personal devices. Identify at least three potential attacks that can be carried out.
+
+The biggest security risk I see with allowing employees to access work information on their personal device is that ALL information is on one device, both personal and work related. If an employee left their phone and it was taken or “hijacked” by some other physical method, the attacker could have access to not only their personal data but also Silvercorp’s data; this is like putting all of your eggs into one basket, not a good idea. Therefore, BYOD (Bring your own device) and having a work phone/personal phone is a better idea. If only one device is lost, only the personal or work data would be at stake; both are still terrible to have jeopardized, but it’s still better than losing both simultaneously.
+
+The other big security risk is the attacker might get a lot more of Silvercorp's data/information by posing as the employer. The attacker could pretend that they need access temporarily until they regain their device, etc. If the other person on the other end didn’t know any better, they could be sending over credentials or some other data to the attacker and not the actual employer, depending on the credentials - if the attacker receives - the attacker could obtain access to a lot more than what’s on the phone. Also, if the majority of employers use slack for communication on their device, the attacker could get access to this and thus find other employers to scam, or phish, etc. These are the top security risks in my mind with having one device rather than having a work and personal device, two devices. 
+
+Three potential attacks that can be carried out are phishing, device theft, malware attacks (kind of goes with device theft because if they got access to the device, they could install malware), credential reuse/brute force attack, I qualify this as an attack option since Silvercorp uses slack for communication. If the attacker got access to the device, I assume they can get access to the company’s slack and then pinpoint other employers and start brute forcing their way into the company; if they got access to slack, you can bet they probably have access to multiple credentials they can try. 
+
+
+Based on the previous scenario, what is the preferred employee behavior? (For example, if employees were downloading suspicious email attachments, the preferred behavior would be that employees only download attachments from trusted sources.)
+
+The first preferred employee behavior is to have two separate devices, as I mentioned in question one.One, you’re not putting all your eggs into one basket, so if a device gets lost or stolen, only the personal or work data would be at risk, not both. 
+Second behavior would be to require some sort of MFA, hopefully physical. Even if the attacker were to get access to a device, ideally they would not have full access to whatever they were trying to, say slack, because MFA would stop them, especially if it were one of those yubi keys. Ideally, the MFA would be physical because if they got access to the device, MFA would be pointless if it was a MFA app on the phone. 
+Third behavior would be to not interact with suspicious texts or communication messages. If phishing will always be an extremely high risk and potentiality, then I would want employees to be aware of not only the risk, but what a fishy email/message may look like and how to avoid them and causing further damage. 
+
+
+What methods would you use to measure how often employees are currently not behaving according to the preferred behavior? (For example, conduct a survey to see how often people download email attachments from unknown senders.)
+
+I would use a variety of different methods. I would use a checklist to start so that employers have a list of behaviors to follow and keep track of what they’re doing and need to work on. Two, it goes along with the checklist, I would use self evaluation because this goes hand in hand with the checklist. Hopefully, Silvercorp’s employees would be honest enough to critique themselves. 
+I’d also use a 360 degree-feedback to cross reference these self-evaluations, get an opinion from co-workers etc. One of the last things I would implement that I read from outside research is MBO, management by objective. This seems to be a more official or op checklist; this is where managers and employers work together to create objectives or outcomes of what is being expected. Not only does this inform the employers on what is expected, but it boosts motivation because the employers work with the managers or higher ups to decide on what is needed; makes them feel included and thus fosters motivation. 
+
+
+What is the goal that you would like the organization to reach regarding this behavior? (For example, to have less than 5% of employees downloading suspicious email attachments.)
+
+I listed a couple of behaviors, but I think the biggest behavior is having two devices. This would help both instances of Silvercorp, over half the employees checking their work email and/or slack on their personal phones and the 25% of employees who do work-related activities or apps on their personal phone. 
+
+I would like to have at least 50% of employees within 6 months to be on two devices and hopefully 100% of employees on two devices by the end of the year. Of course there are risks to two devices as well, it’s not all benefits but I think the benefits outweigh the risks; primarily the biggest risk being that all your eggs are in one basket. Sure, keeping track of two devices is more of a hassle, and I guess what if you lost both devices, but I would implement something like having to leave your work phone at work, so you cannot lose or forget your work device at home or out and about. Plus, if you leave your work device at work, you can still communicate with your team via email on your computer, slack, there are plenty of options to communicate even if you don’t have your work device. 
+
+If I were to get all of Silvercorp’s employees on two devices, I would like to erase all company data on employees who are no longer with the company.  
+
+
+
+Step 2: Involve the Right People
+ 
+List at least five employees or departments that should be involved. For each person or department, describe in 2–3 sentences what their role and responsibilities will be.
+
+The major employees I would have involved are the COO, CISO, CIO, IT support specialist, and HR. 
+
+The COO, being second in command if not close to, would be responsible for the day to day business operations and working with other department heads like the CIO and HR. They would also help develop policies around the behavior of having two devices and communicate with the CEO of Silvercorp; the COO more than likely would help with the physical security of the devices since there would be a lot. 
+
+The CISO would have a great view of the security risks within Silvercorp, and may take the necessary steps and actions to mitigate any of these risks. In this instance, they may also help maintain slack and other sources of communication and communicate with the IT managers who also help with device management.
+
+The CIO is usually given to someone with a lot of experience and will probably work alongside the COO since they both report to the CEO. The CIO would help maintain the people, technologies, and Silvercorp’s IT department to help ensure goals, IT strategies and implementation; they may be the ones who would help implement the physical MFA yubi keys I mentioned in a previous question.
+
+The IT Department, or IT support Specialist, would interact with employees when it comes to support: transferring all their work apps and data to the 2nd device if said employee was not sure how to do it. They would help with slack, syncing errors, all things IT. Depending on what Silvercorp does or provides (we were not given this info) the IT department/ support specialist would interact with clients if they needed technical support as well. These guys would probably report to the CIO. 
+
+HR would be involved at the employer level like the IT department, however, they would be more involved with training, compliance, workplace safety, etc. They would be the ones who help with Step 3 of our homework: the training plan. If there were issues regarding compliance after training of having two devices, they would help. HR would be on the less technical end of the spectrum and would help employees stay trained and/or help future employees get up to speed. 
+
+
+
+Step 3: Training Plan
+
+How frequently will you run training? What format will it take (e.g., in-person, online, a combination of both)?
+
+At the beginning, training would be run fairly frequently. I am thinking once a month if not bi-weekly to get everyone up to speed and reach the goal of all Silvercorp employees having two devices by the end of one year. However, training would drop off once everyone is up to speed and understands, maybe bi-monthly if things have changed or other implementations. 
+
+The format would be both in person and online. I think this would be best in terms of efficiency if we are to mitigate the “All eggs in one basket” scenario. This would also ensure everyone gets trained, albeit employees who work remotely or can’t come in, or even those who work 60hrs+ at Silvercorp; all would be available to train regardless of someone’s scenario/schedule. I’d also make sure employees get compensation of some sort, whether it’s paid training, or they get a $50 gift card from Amazon, something to show that their time is valuable and we appreciate your cooperation.  
+
+
+What topics will you cover in your training, and why? (This should be the bulk of the deliverable.)
+
+I would cover how to manage two devices, having different passwords for each phone, how to maintain the devices. If an employee wanted to bring their own device to be their “work device”, there would be adequate BYOD training. How to spot a phishing event in the likelihood someone’s phone was stolen or the sim card was taken out. Tailgating training, I can see this being an issue if there are so many physical devices. MFA training. 
+
+This may seem like an exhausting list, but I would probably have some sort of quiz or brief background to gauge said employee to figure out what they need training wise. If one employee understood MFA and how to manage a device, there is no reason to make that employee sit through training they don’t need. But, I would like to cover all bases given that I do not know the experience level of any employers, better safe than sorry.
+
+
+After you’ve run your training, how will you measure its effectiveness? 
+
+The first method I think of is a survey, kind of like a self-examination. Especially if you did a before and after, you could cross reference and see. Like with the training, you could have periodic trials. For example, if you wanted to test how employees were doing on recognizing phishing emails, you could send a fake phishing email from Silvercorp and measure how many employees actually clicked the link vs. those that didn’t. Or, you could have random device checks, like pop quizzes at school, to see who brought their two devices that day. 
+
+Given enough of these, you could see the effectiveness or ineffectiveness at which point tailor the training to incur better results. 
+
+
+
+Bonus: Other Solutions
+
+List at least two other potential solutions. For each one, indicate the following:
+What type of control is it? Administrative, technical, or physical? 
+What goal does this control have? Is it preventive, deterrent, detective, corrective, or compensating?
+What is one advantage of each solution? 
+What is one disadvantage of each solution?
+
+Instead of a personal and/or work mobile device, you could have everything work related only on work computers, ie no phones. This does not mean they can’t bring their personal device in.
+
+A. I’d say this is both a physical and technical control. Physical obviously being the literal computer and technical because if it's a work computer only, there would be credentials or different logins for each employee. 
+
+B. I think this is preventive because the goal is to prevent these personal or work mobile devices from being stolen, hacked, forgotten. This control is ideally implemented before a risk occurs, so preventive.
+
+C. The advantage is that nothing would be mobile. The computers at the building stay at Silvercorp, and the remote employees (if there are any) leave their laptops or assigned work computer at home. This eliminates risk or hassle of maintaining two devices, like my suggested behavior, and it mitigates device theft; it is harder, or requires more effort, to steal a physical pc than it is a mobile device. 
+
+D. The disadvantage is nothing is on the go, even if Silvercorp implemented a server because work activities are only accessible on that work device given or assigned to that employee. Another disadvantage is that if computers are implemented after Silvercorp employees are used to their mobile devices, they may complain or cause a stir with a sudden change; people dislike change. 
+
+
+Instead of a personal and/or work mobile device, you could have the employees work off a server so no data is ever saved or on the device. I believe this would mitigate if not eliminate, not necessarily the need of security, but the risk of if the device got stolen. 
+
+A. I believe this is a physical and technical control. Physical because the server is literally physical and technical because all the data is uploaded on the server and so even if the device: computer, mobile, etc, it would (at least to the knowledge I know) prevent the data from being stolen if the device were stolen. 
+
+B. I believe this would be compensating because of the data on the server. This method compensates for the likelihood of someone’s device getting stolen, hacked, lost, etc. 
+
+C. The advantage of this, on top of the data not being on the device, is that you could have the server setup in such a way that only someone with high access like the CISO, or COO, could only physically access the server. This prevents phishing as well because even if an employee clicks on that bad link and gets access to regular Joe Shmoe employee’s credentials, the attacker couldn’t get access to the server with all the data. 
+
+D. The disadvantage is that if you only had one server, if that server failed or the attacker somehow obtained access, they’d get everything; it’s all on one device/server, no back ups in the worst case scenario. While this is more secure, it does defeat the whole purpose of the scenario: one device. It also illustrates my point from the beginning with not putting all your eggs in one basket.
+
+
+
+
+© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
